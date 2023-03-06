@@ -1,4 +1,4 @@
-let input = require("fs").readFileSync("example.txt").toString().split(" ");
+let input = require("fs").readFileSync("/dev/stdin").toString().split(" ");
 var A = parseInt(input[0]);
 var B = parseInt(input[1]);
 var C = parseInt(input[2]);
